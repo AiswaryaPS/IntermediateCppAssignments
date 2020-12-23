@@ -12,9 +12,6 @@ class PrepaidCustomer : public CustomerBase {
   PrepaidCustomer();
   PrepaidCustomer(std::string,std::string,std::string,double);
   PrepaidCustomer(std::string,std::string,std::string);
-  void credit(double);           //recharge or billPay
-  void makeCall(double);
-  double getBalance() const;
   void dispay() const;
 
 }
