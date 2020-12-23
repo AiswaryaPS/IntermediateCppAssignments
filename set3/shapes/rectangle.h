@@ -8,7 +8,7 @@ class Rectangle : public Polygon {
   int  m_breadth;
 
 public:
-  Rectangle(int l,int b);
+  Rectangle(int ,int );
   double area();
   double circumference();
 };
