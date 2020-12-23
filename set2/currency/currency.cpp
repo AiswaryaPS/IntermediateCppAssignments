@@ -84,3 +84,6 @@ int Currency:: getpaise()
 	return m_paise;
 }
 
+void Currency::dispay() const{
+std::cout<<m_rupees<<""<<m_paise<<"";
+}
