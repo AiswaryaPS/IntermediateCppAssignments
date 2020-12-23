@@ -7,8 +7,8 @@ class Circle : public IShape {
   double m_radius;
 
 public:
-  const static double PI = 22.0/7.0;
-  Circle(int r);
+  const static double PI = 3.14;
+  Circle(double);
   double area();
   double circumference();
 };
