@@ -15,10 +15,13 @@ class Currency {
   Currency& operator++();
   Currency operator++(int);
   bool operator==(const Currency&);
-  bool operator<(const Currency&);
+  int getrupees();
+  int getpaise();
+  void dispay() const;
+  /*bool operator<(const Currency&);
   bool operator>(const Currency&);
   void dispay() const;
-  friend std::ostream& operator<<(const std::ostream&, const Currency&);
+  friend std::ostream& operator<<(const std::ostream&, const Currency&);*/
 };
 
 #endif
