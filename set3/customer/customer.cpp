@@ -37,14 +37,14 @@ using namespace std;
     PostpaidCustomer::PostpaidCustomer(string custId,string custName,string phone):
         CustomerBase(custId,custName,phone) {}
 
-    void CustomerBase::display()const
+    void CustomerBase::dispay()const
     {
         cout<<m_custId<<endl;
         cout<<m_custName<<endl;
         cout<<m_phone<<endl;
         cout<<m_balance<<endl;
     }
-    void PostpaidCustomer::display() const{
+    void PostpaidCustomer::dispay() const{
     cout<<"Postpaid Customer\nBill due on "<<m_billDate<<endl;}
 
     void PostpaidCustomer::billPay(double i){
@@ -55,7 +55,7 @@ using namespace std;
     m_balance-=amnt;
     }
 
-    void PrepaidCustomer::display() const{
+    void PrepaidCustomer::dispay() const{
     cout<<"Prepaid Customer\n";}
 
     double CustomerBase::getBalance() const
