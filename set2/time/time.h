@@ -17,10 +17,11 @@ class MyTime {
   MyTime operator++(int);
   MyTime& operator+=(const MyTime&);
   bool operator==(const MyTime&);
-  bool operator<(const MyTime&);
-  bool operator>(const MyTime&);
+  int gethr();
+  int getmin();
+  int getsec();
   void dispay() const;
-  friend std::ostream& operator<<(const std::ostream&, const MyTime&);
+  
 };
 
 #endif
