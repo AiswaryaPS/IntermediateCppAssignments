@@ -6,7 +6,7 @@
 class Polygon:public IShape {
   int m_sides;
   public:
-  Polygon(int n);   //no.of sides
+  Polygon(int );   //no.of sides
 };
 
 #endif
