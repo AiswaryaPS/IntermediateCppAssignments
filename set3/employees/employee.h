@@ -14,7 +14,8 @@ class Employee:public IEmployee {
   int m_exp;
   public:
   Employee(std::string id, std::string name, double salary,int exp);
-  virtual void display();
+  void display();
+  int salary();
 }
 
 #endif
