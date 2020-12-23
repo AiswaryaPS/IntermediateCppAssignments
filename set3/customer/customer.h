@@ -23,7 +23,8 @@ class CustomerBase {
   void credit(double)=0;           //recharge or billPay
   void makeCall(double)=0;
   double getBalance() const;
-  void dispay() const=0;
+  virtual void dispay() const=0;
+  void postpaidbill(double);
 };
 
 #endif
