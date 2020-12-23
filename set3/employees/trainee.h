@@ -7,10 +7,10 @@ class Trainee : public Employee {
   std::string m_track;
   double score;
   public:
-  Manager(std::string id, std::string name, double salary,std::string track code,double score);
-  void payroll();
-  void appraisal();
-  void display();
+  Trainee(std::string id, std::string name, double salary,std::string track code,double score);
+  double payroll();
+  double appraisal();
+  
 };
 
 #endif
